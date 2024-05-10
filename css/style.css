@@ -1,0 +1,166 @@
+.navbar {
+  background-color: darkcyan;
+}
+.navbar .navbar-brand {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: HoneyDew;
+}
+.navbar button {
+  color: white;
+  background-color: white;
+}
+
+.navbar .navbar-nav .nav-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.navbar .navbar-nav .nav-item a:hover {
+  text-decoration: underline 2px Gold;
+  transition: 2s;
+  color: Khaki;
+}
+.navbar .navbar-nav .nav-item {
+  text-align: center;
+  margin-right: 10px;
+}
+.navbar-toggler {
+  color: white;
+  background-color: AliceBlue;
+}
+/* Banner Image*/
+.banner-image {
+  height: 50vh;
+  position: relative;
+  background-size: cover;
+  background-color: #0a193d;
+}
+
+.banner-image .banner-heading {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.banner-image #banner-content #element {
+  font-size: 2.5rem;
+  text-align: center;
+  color: orange;
+}
+.banner-image #banner-content {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* About */
+
+.about .row p {
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-align: justify;
+  font-size: 20px;
+}
+.about .row p::first-letter {
+  font-weight: bold;
+  font-size: 30px;
+}
+.about-icons a {
+  text-decoration: none;
+}
+/* Education Section */
+
+#educationtext {
+  height: 300px;
+}
+#educationtext:hover {
+  border: 2px solid #8da242;
+  border-radius: 20px;
+}
+#education h4 {
+  text-align: center;
+}
+#education dd {
+  font-size: 20px;
+}
+/* Course Section */
+#coursetext {
+  height: 200px;
+}
+#coursetext:hover {
+  border: 2px solid #8da242;
+  border-radius: 20px;
+}
+#coursetext h4 {
+  text-align: center;
+}
+#coursetext dd {
+  font-size: 20px;
+}
+/* Skill  */
+
+#skill .container .row .card-header {
+  background: none;
+  border: none;
+}
+#skill .container .row h3 {
+  text-align: center;
+  background-color: darkcyan;
+  color: white;
+  padding: 10px;
+}
+#skill #skillcard p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+#skill #skillcard {
+  border: 1px solid darkolivegreen;
+  height: 890px;
+  margin-top: 30px;
+  border-radius: 0px 0px 60px 60px;
+}
+@media (max-width: 767px) {
+  #skill #skillcard {
+    border: 1px solid darkolivegreen;
+    height: 890px;
+    margin-top: 30px;
+    border-radius: 0px 0px 0px 0px;
+  }
+}
+/*================ skill progress bar ================= */
+#skill-progress h3 {
+  margin-top: 15px;
+}
+/*============= footer ===============*/
+#contact #contact-icons a:hover {
+  transform: rotate(360deg);
+  transition: 2s;
+  background-color: orange;
+}
+#contact #contact-icons a {
+  transition: 1s;
+}
+/*=========== timer ===============*/
+#timer {
+  padding-top: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fdd935;
+}
+/*==================== fixed icon ===================*/
+#fixed-icons a {
+  text-decoration: none;
+  color: darkcyan;
+}
+@media screen and (min-width: 992px) {
+  #fixed-icons a {
+    font-size: 2rem;
+  }
+}
+@media screen and( max-width: 991px) {
+  #fixed-icons a {
+    font-size: 1rem;
+  }
+}
